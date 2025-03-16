@@ -11,20 +11,28 @@ import UIKit
 class Loader {
     static let shared = Loader()
     
-    var hudView = MBProgressHUD()
+    private var loaderView: UIActivityIndicatorView?
     
-    func show(_ view: UIView){
-        //let window = UIApplication.shared.windows.last as! UIWindow
-        hudView = MBProgressHUD.showAdded(to: view, animated: true)
-    }
-    
-    func hide(_ view: UIView){
-        DispatchQueue.global(qos: .background).async {
-            DispatchQueue.main.async {
-                print("removing hud on webservices")
-                MBProgressHUD.hide(for: view, animated: false)
+    func show(_ view: UIView) {
+        DispatchQueue.main.async {
+            if self.loaderView == nil {
+                let activityIndicator = UIActivityIndicatorView(style: .large)
+                activityIndicator.color = .gray
+                activityIndicator.center = view.center
+                activityIndicator.hidesWhenStopped = true
+                view.addSubview(activityIndicator)
+                
+                self.loaderView = activityIndicator
             }
+            self.loaderView?.startAnimating()
         }
     }
-
+    
+    func hide() {
+        DispatchQueue.main.async {
+            self.loaderView?.stopAnimating()
+            self.loaderView?.removeFromSuperview()
+            self.loaderView = nil
+        }
+    }
 }

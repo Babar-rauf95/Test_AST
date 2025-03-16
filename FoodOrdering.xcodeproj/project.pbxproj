@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3749315C7FFE992FA5224EFF /* Pods_FoodOrdering_FoodOrderingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99F8D8952BECAE355496BCF /* Pods_FoodOrdering_FoodOrderingUITests.framework */; };
+		6EE0C16672A32EA688781BAF /* Pods_FoodOrderingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D82E74DACD7164B7BB36713 /* Pods_FoodOrderingTests.framework */; };
+		CE3688DC757D72F92BFB1C97 /* Pods_FoodOrdering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D8029CFB3DE5027FD02219 /* Pods_FoodOrdering.framework */; };
+		CEEEFDE92D8756B500FCDC54 /* CoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEEEFDE72D8756B500FCDC54 /* CoreModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B604A0102D86D85400FC1649 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +31,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		304917A0ED286887702A9DBA /* Pods-FoodOrdering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrdering.release.xcconfig"; path = "Target Support Files/Pods-FoodOrdering/Pods-FoodOrdering.release.xcconfig"; sourceTree = "<group>"; };
+		33D8029CFB3DE5027FD02219 /* Pods_FoodOrdering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodOrdering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D82E74DACD7164B7BB36713 /* Pods_FoodOrderingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodOrderingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		681E16823FFD5CE272A9BBB1 /* Pods-FoodOrderingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderingTests.release.xcconfig"; path = "Target Support Files/Pods-FoodOrderingTests/Pods-FoodOrderingTests.release.xcconfig"; sourceTree = "<group>"; };
+		76DCECB5A0BF207B6286D00A /* Pods-FoodOrderingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderingTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodOrderingTests/Pods-FoodOrderingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9ADE6978D6053DBA9DC06CF6 /* Pods-FoodOrdering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrdering.debug.xcconfig"; path = "Target Support Files/Pods-FoodOrdering/Pods-FoodOrdering.debug.xcconfig"; sourceTree = "<group>"; };
 		B6049FF62D86D85300FC1649 /* FoodOrdering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodOrdering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B604A00F2D86D85400FC1649 /* FoodOrderingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodOrderingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B604A0192D86D85400FC1649 /* FoodOrderingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodOrderingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF05CEB6D33412D9684A9C3 /* Pods-FoodOrdering-FoodOrderingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrdering-FoodOrderingUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodOrdering-FoodOrderingUITests/Pods-FoodOrdering-FoodOrderingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEEEFDE82D8756B500FCDC54 /* CoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreModel.xcdatamodel; sourceTree = "<group>"; };
+		F99F8D8952BECAE355496BCF /* Pods_FoodOrdering_FoodOrderingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodOrdering_FoodOrderingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA2696008AB9C081E18F003 /* Pods-FoodOrdering-FoodOrderingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrdering-FoodOrderingUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodOrdering-FoodOrderingUITests/Pods-FoodOrdering-FoodOrderingUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3688DC757D72F92BFB1C97 /* Pods_FoodOrdering.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE0C16672A32EA688781BAF /* Pods_FoodOrderingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,19 +98,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3749315C7FFE992FA5224EFF /* Pods_FoodOrdering_FoodOrderingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D187C5E203032D63B5F483F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE6978D6053DBA9DC06CF6 /* Pods-FoodOrdering.debug.xcconfig */,
+				304917A0ED286887702A9DBA /* Pods-FoodOrdering.release.xcconfig */,
+				BFF05CEB6D33412D9684A9C3 /* Pods-FoodOrdering-FoodOrderingUITests.debug.xcconfig */,
+				FAA2696008AB9C081E18F003 /* Pods-FoodOrdering-FoodOrderingUITests.release.xcconfig */,
+				76DCECB5A0BF207B6286D00A /* Pods-FoodOrderingTests.debug.xcconfig */,
+				681E16823FFD5CE272A9BBB1 /* Pods-FoodOrderingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		844EDF1D50C2AB71535BFA23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33D8029CFB3DE5027FD02219 /* Pods_FoodOrdering.framework */,
+				F99F8D8952BECAE355496BCF /* Pods_FoodOrdering_FoodOrderingUITests.framework */,
+				5D82E74DACD7164B7BB36713 /* Pods_FoodOrderingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6049FED2D86D85300FC1649 = {
 			isa = PBXGroup;
 			children = (
+				CEEEFDE72D8756B500FCDC54 /* CoreModel.xcdatamodeld */,
 				B6049FF82D86D85300FC1649 /* FoodOrdering */,
 				B604A0122D86D85400FC1649 /* FoodOrderingTests */,
 				B604A01C2D86D85400FC1649 /* FoodOrderingUITests */,
 				B6049FF72D86D85300FC1649 /* Products */,
+				0D187C5E203032D63B5F483F /* Pods */,
+				844EDF1D50C2AB71535BFA23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B604A0222D86D85400FC1649 /* Build configuration list for PBXNativeTarget "FoodOrdering" */;
 			buildPhases = (
+				CBC1FB539B21A6DB167BCA03 /* [CP] Check Pods Manifest.lock */,
 				B6049FF22D86D85300FC1649 /* Sources */,
 				B6049FF32D86D85300FC1649 /* Frameworks */,
 				B6049FF42D86D85300FC1649 /* Resources */,
+				37F576DB38E4CFC058C6A5D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +172,6 @@
 				B6049FF82D86D85300FC1649 /* FoodOrdering */,
 			);
 			name = FoodOrdering;
-			packageProductDependencies = (
-			);
 			productName = FoodOrdering;
 			productReference = B6049FF62D86D85300FC1649 /* FoodOrdering.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B604A0272D86D85400FC1649 /* Build configuration list for PBXNativeTarget "FoodOrderingTests" */;
 			buildPhases = (
+				DB616E378629951503E62F13 /* [CP] Check Pods Manifest.lock */,
 				B604A00B2D86D85400FC1649 /* Sources */,
 				B604A00C2D86D85400FC1649 /* Frameworks */,
 				B604A00D2D86D85400FC1649 /* Resources */,
@@ -147,8 +194,6 @@
 				B604A0122D86D85400FC1649 /* FoodOrderingTests */,
 			);
 			name = FoodOrderingTests;
-			packageProductDependencies = (
-			);
 			productName = FoodOrderingTests;
 			productReference = B604A00F2D86D85400FC1649 /* FoodOrderingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B604A02A2D86D85400FC1649 /* Build configuration list for PBXNativeTarget "FoodOrderingUITests" */;
 			buildPhases = (
+				3C8FE3435A04357FBFEFFE25 /* [CP] Check Pods Manifest.lock */,
 				B604A0152D86D85400FC1649 /* Sources */,
 				B604A0162D86D85400FC1649 /* Frameworks */,
 				B604A0172D86D85400FC1649 /* Resources */,
+				13C19EFB7AD5021D438EC30C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +217,6 @@
 				B604A01C2D86D85400FC1649 /* FoodOrderingUITests */,
 			);
 			name = FoodOrderingUITests;
-			packageProductDependencies = (
-			);
 			productName = FoodOrderingUITests;
 			productReference = B604A0192D86D85400FC1649 /* FoodOrderingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,11 +289,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13C19EFB7AD5021D438EC30C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodOrdering-FoodOrderingUITests/Pods-FoodOrdering-FoodOrderingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodOrdering-FoodOrderingUITests/Pods-FoodOrdering-FoodOrderingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodOrdering-FoodOrderingUITests/Pods-FoodOrdering-FoodOrderingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37F576DB38E4CFC058C6A5D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodOrdering/Pods-FoodOrdering-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodOrdering/Pods-FoodOrdering-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodOrdering/Pods-FoodOrdering-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C8FE3435A04357FBFEFFE25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodOrdering-FoodOrderingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC1FB539B21A6DB167BCA03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodOrdering-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB616E378629951503E62F13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodOrderingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6049FF22D86D85300FC1649 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEEFDE92D8756B500FCDC54 /* CoreModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +433,14 @@
 /* Begin XCBuildConfiguration section */
 		B604A0232D86D85400FC1649 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADE6978D6053DBA9DC06CF6 /* Pods-FoodOrdering.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RY4C896S84;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodOrdering/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -296,6 +448,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,19 +456,26 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foodordering.ast.FoodOrdering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B604A0242D86D85400FC1649 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304917A0ED286887702A9DBA /* Pods-FoodOrdering.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RY4C896S84;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodOrdering/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,6 +483,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +491,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foodordering.ast.FoodOrdering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -457,6 +622,7 @@
 		};
 		B604A0282D86D85400FC1649 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DCECB5A0BF207B6286D00A /* Pods-FoodOrderingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +641,7 @@
 		};
 		B604A0292D86D85400FC1649 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681E16823FFD5CE272A9BBB1 /* Pods-FoodOrderingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +660,7 @@
 		};
 		B604A02B2D86D85400FC1649 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF05CEB6D33412D9684A9C3 /* Pods-FoodOrdering-FoodOrderingUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +677,7 @@
 		};
 		B604A02C2D86D85400FC1649 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA2696008AB9C081E18F003 /* Pods-FoodOrdering-FoodOrderingUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -563,6 +732,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEEEFDE72D8756B500FCDC54 /* CoreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEEEFDE82D8756B500FCDC54 /* CoreModel.xcdatamodel */,
+			);
+			currentVersion = CEEEFDE82D8756B500FCDC54 /* CoreModel.xcdatamodel */;
+			path = CoreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B6049FEE2D86D85300FC1649 /* Project object */;
 }

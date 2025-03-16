@@ -9,8 +9,8 @@ import Foundation
 
 //MARK: - BaseViewModelProtocol
 protocol BaseViewModelProtocols: AnyObject {
-    func isLoading(status: Bool)
-    func showMessage(message: String,type: ToastType)
+    func onFailure(error: String, type: ToastType)
+
 }
 
 class BaseViewModel {

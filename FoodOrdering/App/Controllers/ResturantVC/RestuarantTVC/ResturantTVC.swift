@@ -7,12 +7,11 @@
 
 import UIKit
 
-class ResturantTVC: UITableViewCell {
+class ResturantTVC: UITableViewCell, IdentifiableProtocol {
 
     @IBOutlet weak var imgRestuarant: UIImageView!
     @IBOutlet weak var lblRestuarantName: UILabel!
     @IBOutlet weak var lblRestuarantEconomy: UILabel!
-    
     
     func setData(){
         self.imgRestuarant.image = UIImage(named: "")
