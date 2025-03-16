@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="229" id="KGk-i7-Jjw" customClass="ResturantTVC" customModule="FoodOrdering" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="456" height="229"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="456" height="229"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QLa-Lb-Nfk" customClass="ShadowView" customModule="FoodOrdering" customModuleProvider="target">
+                        <rect key="frame" x="4" y="4" width="448" height="221"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hX3-RJ-4fo">
+                        <rect key="frame" x="4" y="4" width="448" height="221"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dummyFoodPic" translatesAutoresizingMaskIntoConstraints="NO" id="RMb-2H-N9C">
+                                <rect key="frame" x="10" y="0.0" width="428" height="99.333333333333329"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oJj-9D-uZR">
+                                <rect key="frame" x="0.0" y="99.333333333333329" width="448" height="1"/>
+                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="uyw-2q-t7p"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="8D9-UA-col">
+                                <rect key="frame" x="12" y="104.33333333333333" width="169.33333333333334" height="37.333333333333329"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subway - Johar Block 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12Y-1n-QNw">
+                                        <rect key="frame" x="0.0" y="0.0" width="169.33333333333334" height="17.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFh-zO-m4H">
+                                        <rect key="frame" x="0.0" y="19.666666666666671" width="169.33333333333334" height="17.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="8D9-UA-col" secondAttribute="bottom" constant="4" id="8X7-fa-k6k"/>
+                            <constraint firstAttribute="trailing" secondItem="oJj-9D-uZR" secondAttribute="trailing" id="AGJ-P7-XCc"/>
+                            <constraint firstItem="8D9-UA-col" firstAttribute="leading" secondItem="hX3-RJ-4fo" secondAttribute="leading" constant="12" id="V3M-PQ-IDm"/>
+                            <constraint firstItem="8D9-UA-col" firstAttribute="top" secondItem="oJj-9D-uZR" secondAttribute="bottom" constant="4" id="bR4-mF-ycK"/>
+                            <constraint firstAttribute="trailing" secondItem="RMb-2H-N9C" secondAttribute="trailing" constant="10" id="bd3-yt-gee"/>
+                            <constraint firstItem="RMb-2H-N9C" firstAttribute="top" secondItem="hX3-RJ-4fo" secondAttribute="top" id="gxb-bt-sPv"/>
+                            <constraint firstItem="oJj-9D-uZR" firstAttribute="top" secondItem="RMb-2H-N9C" secondAttribute="bottom" id="h0w-1t-yCn"/>
+                            <constraint firstItem="RMb-2H-N9C" firstAttribute="height" secondItem="hX3-RJ-4fo" secondAttribute="height" multiplier="0.45" id="rsC-kJ-IrW"/>
+                            <constraint firstItem="RMb-2H-N9C" firstAttribute="leading" secondItem="hX3-RJ-4fo" secondAttribute="leading" constant="10" id="va6-iH-lbI"/>
+                            <constraint firstItem="oJj-9D-uZR" firstAttribute="leading" secondItem="hX3-RJ-4fo" secondAttribute="leading" id="whh-Zm-VoA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="QLa-Lb-Nfk" firstAttribute="trailing" secondItem="hX3-RJ-4fo" secondAttribute="trailing" id="6st-Kg-GBW"/>
+                    <constraint firstItem="hX3-RJ-4fo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="7xJ-nz-b8W"/>
+                    <constraint firstItem="QLa-Lb-Nfk" firstAttribute="top" secondItem="hX3-RJ-4fo" secondAttribute="top" id="FbY-Cr-FCr"/>
+                    <constraint firstAttribute="trailing" secondItem="hX3-RJ-4fo" secondAttribute="trailing" constant="4" id="VGS-yt-1BH"/>
+                    <constraint firstItem="QLa-Lb-Nfk" firstAttribute="bottom" secondItem="hX3-RJ-4fo" secondAttribute="bottom" id="goz-1P-QGg"/>
+                    <constraint firstItem="hX3-RJ-4fo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="qdQ-OI-Cv8"/>
+                    <constraint firstAttribute="bottom" secondItem="hX3-RJ-4fo" secondAttribute="bottom" constant="4" id="rid-cz-i7I"/>
+                    <constraint firstItem="QLa-Lb-Nfk" firstAttribute="leading" secondItem="hX3-RJ-4fo" secondAttribute="leading" id="weR-sk-DpM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgRestuarant" destination="RMb-2H-N9C" id="Ljh-UF-5od"/>
+                <outlet property="lblRestuarantEconomy" destination="aFh-zO-m4H" id="xZT-Zq-JiS"/>
+                <outlet property="lblRestuarantName" destination="12Y-1n-QNw" id="PWE-Av-nsc"/>
+            </connections>
+            <point key="canvasLocation" x="192.36641221374046" y="84.859154929577471"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dummyFoodPic" width="600" height="450"/>
+        <systemColor name="separatorColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
