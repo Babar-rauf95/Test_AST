@@ -20,9 +20,6 @@ class LoginVC: UIViewController, IdentifiableProtocol, Alertable {
     override func viewDidLoad() {
         super.viewDidLoad()
         initializeVM()
-        
-        self.tfEmail.text = "babar@gmail.com"
-        self.tfPassword.text = "12341234"
         // Do any additional setup after loading the view.
     }
     

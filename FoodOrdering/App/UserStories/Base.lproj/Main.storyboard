@@ -77,13 +77,13 @@
                                         <rect key="frame" x="0.0" y="77.666666666666686" width="329" height="70.666666666666686"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09X-iG-Usf">
-                                                <rect key="frame" x="12" y="0.0" width="71" height="22.666666666666668"/>
+                                                <rect key="frame" x="12" y="0.0" width="71" height="18.666666666666668"/>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ufa-SE-912">
-                                                <rect key="frame" x="12" y="26.666666666666629" width="305" height="40"/>
+                                                <rect key="frame" x="12" y="22.666666666666629" width="305" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="i1z-90-q5U"/>
                                                 </constraints>
@@ -93,7 +93,7 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.81905990839999998" green="0.89067345860000002" blue="0.98832970860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="Ufa-SE-912" secondAttribute="bottom" constant="4" id="Akx-d2-lgW"/>
+                                            <constraint firstAttribute="bottom" secondItem="Ufa-SE-912" secondAttribute="bottom" constant="8" id="Akx-d2-lgW"/>
                                             <constraint firstItem="09X-iG-Usf" firstAttribute="leading" secondItem="GZK-is-UYa" secondAttribute="leading" constant="12" id="Sbe-V9-p9Q"/>
                                             <constraint firstItem="Ufa-SE-912" firstAttribute="leading" secondItem="09X-iG-Usf" secondAttribute="leading" id="YHS-jy-vdP"/>
                                             <constraint firstItem="09X-iG-Usf" firstAttribute="top" secondItem="GZK-is-UYa" secondAttribute="top" id="ZbV-Se-AKL"/>
